@@ -1,10 +1,19 @@
+a {
+  color: #856c8b;
+  font-family: 'Montserrat', sans-serif;
+margin:10px 20px;
+text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-
+ color: #40514e;
 }
-
 
 h1 {
   font-family: 'Sacramento', cursive;
@@ -16,6 +25,7 @@ h1 {
 h2{
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
 }
 h3{
   color: #11999E;
@@ -28,13 +38,23 @@ h4 {font-weight: normal;
  margin-top: 0px;
   margin-bottom: 0px;
 }
-
+hr{
+  margin: 100px auto 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #ededed ;
+  border-width: 6px;
+  width:5%;
+}
+.hell {
+  width: 30%;
+  margin: auto;
+}
 .skill-row {
   width:50%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
-
 }
 
 .top-container {
@@ -44,11 +64,23 @@ padding-top: 40px;
 margin-bottom: 0px;
 }
 
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
 
 .top-cloud {
   position: relative;
   left: 280px;
   top: 60px;
+}
+.middle-cloud {
+  position: relative;
+right: 400px;
+
 }
 .bottom-cloud {
   position: relative;
@@ -58,6 +90,7 @@ margin-bottom: 0px;
 .mountain {
   position: relative;
   right:30px;
+  margin-bottom: 0;
 }
 
 .cute-tenor{
@@ -83,25 +116,27 @@ margin-bottom: 0px;
   float: right;
   margin-left: 30px;
 }
-.btn {
-  border: none;
-  background-color: #45b29a;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
+
+.contactme {
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .contactme {
-    color: #1b7f69;
+  background-color: #11cdd4;
+  color: white;
+  border: 2px solid #11cdd4;
 }
 
 .contactme:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.bottom-container {
-  padding-top: 10px;
- margin-top: 20px;
-background-color: #66BFBF;
+  background-color: #30a3cb;
+  color: white;
 }
